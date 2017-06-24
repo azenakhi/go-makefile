@@ -1,6 +1,10 @@
 package model
 
-type Person struct {
+type PersonModel struct {
 	Name string
 	Age  string
+}
+
+func NewPersonModel() *PersonModel {
+	return &PersonModel{}
 }
