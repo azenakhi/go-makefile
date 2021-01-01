@@ -29,7 +29,7 @@ jobs:
       - name: Hello world
         run: |
           echo hello world
-          ls -al
+          make linux
         
       - name: Run a one-line script
         run: echo Hello, world!
